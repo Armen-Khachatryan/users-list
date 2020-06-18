@@ -1,0 +1,31 @@
+.container-table {
+  margin-top: 40px;
+}
+
+table {
+  /* font-family: arial, sans-serif;
+  border-collapse: collapse; */
+  width: 50%;
+}
+
+td,
+th {
+  border-bottom: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(1) {
+  background-color: #dddddd;
+}
+
+button {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+button:focus {
+  outline: 0;
+}

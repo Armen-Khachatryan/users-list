@@ -1,11 +1,5 @@
 .app {
   display: flex;
   flex-direction: column;
-  margin: 20px auto;
-  width: 25%;
-}
-
-h3 {
-  color: gray;
-  margin: 0px auto;
+  margin: 10px 60px;
 }
