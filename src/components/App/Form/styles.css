@@ -1,0 +1,17 @@
+.form-container {
+  align-items: center;
+  margin: 20px auto;
+  /* background: red; */
+  width: 20vw;
+}
+.PhoneInputInput {
+  border-width: 0px;
+  outline: none;
+}
+
+.PhoneInputCountry {
+  margin-left: 7px;
+}
+.submit-button {
+  width: 100%;
+}
