@@ -29,3 +29,11 @@ button {
 button:focus {
   outline: 0;
 }
+
+th:nth-child(1) {
+  width: 70px;
+}
+
+td:nth-child(1) {
+  padding-left: 30px;
+}

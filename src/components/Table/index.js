@@ -6,9 +6,10 @@ import { ReactComponent as ArrowDown } from '../../icons/arrow-down.svg';
 import { ReactComponent as ArrowUp } from '../../icons/up-arrow.svg';
 
 const Table = props => {
-  const [descending, setState] = useState(true);
+  const [descending, setState] = useState(null);
   const tabledata = [
     {
+      id: 1,
       fullName: 'Alfreds Futterkiste',
       email: 'asd@gmail.com',
       phone: '+37477783339',
@@ -16,6 +17,7 @@ const Table = props => {
       gender: 'Male'
     },
     {
+      id: 2,
       fullName: 'Alfreds Futterkiste',
       email: 'asd@gmail.com',
       phone: '+37477783339',
@@ -23,6 +25,7 @@ const Table = props => {
       gender: 'Male'
     },
     {
+      id: 3,
       fullName: 'Alfreds Futterkiste',
       email: 'asd@gmail.com',
       phone: '+37477783339',
@@ -30,6 +33,7 @@ const Table = props => {
       gender: 'Male'
     },
     {
+      id: 4,
       fullName: 'Alfreds Futterkiste',
       email: 'asd@gmail.com',
       phone: '+37477783339',
@@ -37,6 +41,7 @@ const Table = props => {
       gender: 'Male'
     },
     {
+      id: 5,
       fullName: 'Alfreds Futterkiste',
       email: 'asd@gmail.com',
       phone: '+37477783339',
@@ -49,6 +54,7 @@ const Table = props => {
       <h2>Table</h2>
       <table>
         <tr>
+          <th></th>
           <th>Full Name</th>
           <th>Email</th>
           <th>Phone number</th>
@@ -68,6 +74,7 @@ const Table = props => {
         {tabledata.map(item => {
           return (
             <tr>
+              <td>{item.id}</td>
               <td>{item.fullName}</td>
               <td>{item.email}</td>
               <td>{item.phone}</td>
